@@ -32,7 +32,7 @@ const Modal: React.FC<PropsModal> = ({ menu }) => {
             <h1 className="text-2xl mb-2">{menu.name}</h1>
             <div className="flex sm:justify-between flex-col sm:flex-row items-start gap-2 sm:gap-4 text-base sm:items-end leading-tight">
               <span className="max-w-sm">{menu.sales[0].description}</span>
-              <span className="text-cyan-600 text-3xl">R$ {price},00</span>
+              <span className="text-cyan-600 text-3xl">R$ PRECO {price},00</span>
             </div>
           </div>
           {/*<footer className="border-t border-solid border-black border-opacity-30 w-full flex justify-between px-3 py-4">*/}
